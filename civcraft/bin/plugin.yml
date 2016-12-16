@@ -5,23 +5,23 @@ version: 1.76.5
 
 commands:
     town:
-        aliases: [t]
+        aliases: [t] [е]
     plot:
-        aliases: [p]
+        aliases: [p] [з]
     resident:
-        aliases: [res]
+        aliases: [res] [кус] 
     dbg:
-        aliases: []
+        aliases:
     accept:
-        aliases: [yes]
+        aliases: [yes] [y] [нуы]
     deny:
-        aliases: [no]
+        aliases: [no] [n] [тщ]
     civ:
-        aliases:
+        aliases: [c] [с]
     tc:
-        aliases:
+        aliases: [ес]
     cc:
-        aliases:
+        aliases: [сс]
     ac:
         aliases:
     gc:
@@ -35,7 +35,7 @@ commands:
     select:
         aliases:
     econ:
-        aliases: [money]
+        aliases: [money] [ьщтун]
     pay:
         aliases:
     here:
@@ -43,8 +43,6 @@ commands:
     camp:
         aliases:
     report:
-        aliases:
-    trade:
         aliases:
     kill:
         aliases:
