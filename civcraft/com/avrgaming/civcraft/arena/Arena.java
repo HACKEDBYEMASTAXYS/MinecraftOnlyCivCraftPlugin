@@ -108,9 +108,9 @@ public class Arena {
 				continue;
 			}
 			
-			if (!resident.isUsesAntiCheat()) {
-				throw new CivException(resident.getName()+" must be using anti-cheat in order to join the arena.");
-			}
+// 			if (!resident.isUsesAntiCheat()) {
+// 				throw new CivException(resident.getName()+" must be using anti-cheat in order to join the arena.");
+// 			}
 			
 			try {
 				teleportToRandomRevivePoint(resident, teamCount);
